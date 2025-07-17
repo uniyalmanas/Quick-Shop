@@ -28,8 +28,8 @@ const OrderSummary = () => {
   }, [])
 
   return (
-    <div className="w-full md:w-96 bg-gray-500/5 p-5">
-      <h2 className="text-xl md:text-2xl font-medium text-gray-700">
+    <div className="w-full md:w-96 bg-gray-50 p-5">
+      <h2 className="text-xl md:text-2xl font-medium text-primary-dark">
         Order Summary
       </h2>
       <hr className="border-gray-500/30 my-5" />

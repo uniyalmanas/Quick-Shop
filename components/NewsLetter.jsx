@@ -2,13 +2,12 @@ import React from "react";
 
 const NewsLetter = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center space-y-2 pt-8 pb-14">
+    <div className="flex flex-col items-center justify-center text-center space-y-2 pt-8 pb-14 bg-white">
       <h1 className="md:text-4xl text-2xl font-medium">
-        Subscribe now & get 20% off
+        Subscribe now & get 30% off
       </h1>
       <p className="md:text-base text-gray-500/80 pb-8">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry.
+        Check it out once  and you will fall in love with our products . And you get all the brand new products from us .....
       </p>
       <div className="flex items-center justify-between max-w-2xl w-full md:h-14 h-12">
         <input
@@ -16,7 +15,7 @@ const NewsLetter = () => {
           type="text"
           placeholder="Enter your email id"
         />
-        <button className="md:px-12 px-8 h-full text-white bg-orange-600 rounded-md rounded-l-none">
+        <button className="md:px-12 px-8 h-full text-foreground bg-primary rounded-md rounded-l-none">
           Subscribe
         </button>
       </div>
