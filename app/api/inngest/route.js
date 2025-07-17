@@ -1,19 +1,12 @@
 import { serve } from "inngest/next";
-import { inngest } from "@/config/inngest ";
-import { syncUserCreation, syncUserDeletion } from "@/config/inngest";
+import { inngest, syncUserUpdation } from "@/config/inngest";
+import { syncUserCreation, syncUserDeletion } from "@/functions/inngest"; // Assuming the functions are not in config
 
-// Create an API that serves zero functions
 export const { GET, POST, PUT } = serve({
   client: inngest,
   functions: [
-     
     syncUserCreation,
-    syncUserDeletion,
+    syncUserUpdation,
     syncUserDeletion
   ],
 });
-
-
-
-
-
